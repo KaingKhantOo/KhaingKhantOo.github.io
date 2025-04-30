@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>စာပေနှင့်နည်းပညာ | ကျွန်တော့်လေ့လာမှုမှတ်တမ်း</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Pyidaungsu', 'Noto Sans Myanmar', sans-serif;
+        }
+        
+        /* Body Styles */
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        /* Sections */
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        h2 {
+            color: #2980b9;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        
+        h3 {
+            color: #16a085;
+            margin: 15px 0 10px;
+            font-size: 18px;
+        }
+        
+        /* Lists */
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        li:before {
+            content: "•";
+            color: #e74c3c;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        /* Links */
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        a:hover {
+            color: #e74c3c;
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>စာပေနှင့်နည်းပညာလေ့လာမှု</h1>
+            <p class="subtitle">အထက်တန်းကျောင်းသားတစ်ဦး၏ နည်းပညာအကူညီမှတ်တမ်း</p>
+        </header>
+        
+        <section>
+            <h2>ဒီဂျစ်တယ်စာဖတ်ခြင်း (Digital Reading)</h2>
+            <ul>
+                <li><strong>e-Books & Audiobooks:</strong> <a href="https://www.amazon.com/kindle-dbs" target="_blank">Kindle</a>, <a href="https://books.google.com/" target="_blank">Google Books</a>, <a href="https://www.audible.com/" target="_blank">Audible</a></li>
+                <li><strong>PDF Annotators:</strong> Adobe Acrobat, Xodo PDF Reader</li>
+                <li><strong>မြန်မာစာအုပ်များ:</strong> မြန်မာ့ရိုးရာ e-Book စုဆောင်းမှုများ</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>စာရေးသားခြင်းနည်းပညာ (Writing Tools)</h2>
+            <ul>
+                <li><strong>Grammarly:</strong> <a href="https://www.grammarly.com" target="_blank">Grammarly.com</a> (အင်္ဂလိပ်စာ စာလုံးပေါင်းနှင့် သဒ္ဒါစစ်ဆေးခြင်း)</li>
+                <li><strong>Research Tools:</strong> <a href="https://scholar.google.com" target="_blank">Google Scholar</a>, Zotero (ကိုးကားချက်စီမံခြင်း)</li>
+                <li><strong>မြန်မာစာစီစာကုံး:</strong> မြန်မာစာဖွဲ့ထုံးများအတွက် အထောက်အကူ</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>ဘာသာစကားသင်ယူခြင်း (Language Learning)</h2>
+            <ul>
+                <li><strong>Duolingo:</strong> <a href="https://www.duolingo.com" target="_blank">Duolingo.com</a> (ပျော်စရာဘာသာစကားသင်ကြားမှု)</li>
+                <li><strong>TED-Ed:</strong> <a href="https://ed.ted.com" target="_blank">TED-Ed</a> (အရည်အသွေးမြင့် ဗီဒီယိုသင်ခန်းစာများ)</li>
+                <li><strong>မြန်မာစာလေ့လာသူများအတွက်:</strong> မြန်မာစာပေဗိမာန် အရင်းအမြစ်များ</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>အွန်လိုင်းသင်တန်းများ (Online Courses)</h2>
+            <h3>နိုင်ငံတကာပလက်ဖောင်းများ</h3>
+            <ul>
+                <li><a href="https://www.coursera.org" target="_blank">Coursera</a> - တက္ကသိုလ်အဆင့် သင်တန်းများ</li>
+                <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a> - အခြေခံမှစသင်ကြားမှုများ</li>
+            </ul>
+            
+            <h3>မြန်မာ့ပလက်ဖောင်းများ</h3>
+            <ul>
+                <li>Myanmar Digital Education - ဒေသခံ e-Learning</li>
+                <li>ရန်ကုန်တက္ကသိုလ် အဝေးသင် အရင်းအမြစ်များ</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>AI အကူအညီများ (AI Tools)</h2>
+            <ul>
+                <li><strong>ChatGPT/DeepSeek Chat:</strong> စာပေနှင့်ပတ်သက်သော မေးခွန်းများအတွက်</li>
+                <li><strong>QuillBot:</strong> <a href="https://quillbot.com" target="_blank">Quillbot.com</a> (စာသားပြန်လည်ရေးသားခြင်း)</li>
+                <li><strong>မြန်မာစာအတွက် AI:</strong> မြန်မာဘာသာ NLP အရင်းအမြစ်များ</li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>© 2023 ကျွန်တော့်စာပေလေ့လာမှုမှတ်တမ်း | အဆင့်မြှင့်တင်မှုများဆက်လက်ဖြည့်စွက်သွားမည်</p>
+        </footer>
+    </div>
+</body>
+</html>
